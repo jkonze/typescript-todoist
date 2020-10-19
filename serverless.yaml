@@ -1,0 +1,11 @@
+component: website
+name: typescript-todoist
+app: typescript-todoist
+stage: dev
+
+inputs:
+  src: ./src
+  hook: yarn build
+  dist: ./dist
+  region: eu-central-1
+  bucketName: todoist-app
